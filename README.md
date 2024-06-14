@@ -1,17 +1,3 @@
-#TODO:
-* refactor EDABase + update dist + sampling
-* try out array for samples
-* optimize migration and serializing and make data ownership clear
-* index sorting
-* better random
-* Tests
-
-#Jacobs great ideas for more complex code
-* Custom array class to hide size and unique ptr
-* * Resize
-* * Fast concat without memcopy
-* * construcors for size allignment constraints like div 16
-
 # Set up development & test environments
 This describes the setup used by us for development and testing. For development it was primarily don on windows with visual studio 2022, the guide can be found below **Setup for windows**. We primarily used the LSF 10 cluster for testing and running experiments. The guide for how we accessed and cloned the repository can be found in **Setup linux HPC (LSF 10)** and a guide on how to compile the clone repository can be found in **Compile for linux to run on HPC cluster**.
 
